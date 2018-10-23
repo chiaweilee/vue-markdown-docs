@@ -80,8 +80,8 @@ module.exports = (api, options) => {
       .use('vue-loader')
       .loader('vue-loader')
       .end()
-      .use('vue-markdown-loader')
-      .loader('vue-markdown-loader/lib/markdown-compiler')
+      .use('@chiaweilee/vue-markdown-loader')
+      .loader('@chiaweilee/vue-markdown-loader')
       .options(require('../../../src/core/loader-option'))
 
     webpackConfig.module

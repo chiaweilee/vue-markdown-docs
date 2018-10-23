@@ -48,7 +48,7 @@
     "node-sass": "^4.9.0",
     "rundist": "^0.0.2-ILoveNana",
     "sass-loader": "^7.0.1",
-    "vue-markdown-loader": "^2.4.1",
+    "@chiaweilee/vue-markdown-loader": "^2.4.1",
     "vue-template-compiler": "^2.5.17"
   }
 }

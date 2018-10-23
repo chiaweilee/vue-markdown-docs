@@ -1,7 +1,11 @@
-const option = {
-  preventExtract: false,
-  preprocess: require('./preprocess'),
-  raw: true
+module.exports = {
+  script: `
+  import { refactorHn, goHash } from '@/core/utils'
+  export default {
+    mounted () {
+      this.$emit('markdown', refactorHn(this.$root.$el))
+      goHash()
+    }
+  }
+  `
 }
-
-module.exports = option
