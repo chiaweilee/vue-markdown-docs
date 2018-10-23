@@ -87,17 +87,22 @@ module.exports = (api, options) => {
     webpackConfig.module
       .rule('vue')
       .test(/\.vue$/)
-      .use('cache-loader')
-      .loader('cache-loader')
-      .options(vueLoaderCacheConfig)
-      .end()
+      // .use('cache-loader')
+      // .loader('cache-loader')
+      // .options(vueLoaderCacheConfig)
+      // .end()
       .use('vue-loader')
       .loader('vue-loader')
-      .options(Object.assign({
+      .options({
         compilerOptions: {
           preserveWhitespace: false
         }
-      }, vueLoaderCacheConfig))
+      })
+      // .options(Object.assign({
+      //   compilerOptions: {
+      //     preserveWhitespace: false
+      //   }
+      // }, vueLoaderCacheConfig))
 
     webpackConfig
       .plugin('vue-loader')
