@@ -1,6 +1,10 @@
 ## Vue Markdown Docs
 ---
 
+### Demo and Docs
+
+see `https://chiaweilee.github.io/vue-markdown-docs/`
+
 ### Install
 
 ```
