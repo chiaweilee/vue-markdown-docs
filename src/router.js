@@ -55,6 +55,7 @@ const initRoutes = function (routes) {
 }
 
 const router = new Router({
+  // base: '/vue-markdown-docs/', // for github/docs
   mode: 'history', // important
   routes: initRoutes(routes),
   scrollBehavior (to, from) {
