@@ -1,5 +1,11 @@
 module.exports = {
   productionSourceMap: false,
+  css: {
+    extract: false
+  },
+  // baseUrl: process.env.NODE_ENV === 'production'
+  //   ? '/vue-markdown-docs/' // for github/docs
+  //   : '/',
   chainWebpack: config => {
     config.plugins.delete('preload')
     config.plugins.delete('prefetch')
