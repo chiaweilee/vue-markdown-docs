@@ -18,7 +18,7 @@
           class="nav-link"
           :to="{ name: route.name }"
         >
-          {{ route.title || route.name }}
+          {{ route.meta.title || route.name }}
         </router-link>
       </dd>
     </template>
