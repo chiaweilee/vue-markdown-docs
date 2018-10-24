@@ -6,13 +6,13 @@
   "scripts": {
     "dev": "npm run serve",
     "start": "npm run serve",
-    "serve": "build/bin/vue-cli-service.js serve",
-    "build": "build/bin/vue-cli-service.js build",
-    "lint": "build/bin/vue-cli-service.js lint",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
     "dist": "rundist",
     "test": "npm run test:unit & npm run test:e2e",
-    "test:e2e": "build/bin/vue-cli-service.js test:e2e",
-    "test:unit": "build/bin/vue-cli-service.js test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit",
     "es5": "npx babel --no-babelrc src --out-dir lib",
     "commit": "npx git-cz"
   },
@@ -46,7 +46,7 @@
     "chai": "^4.1.2",
     "lint-staged": "^7.3.0",
     "node-sass": "^4.9.0",
-    "rundist": "^0.0.2-ILoveNana",
+    "rundist": "^0.0.3-ILoveNana",
     "sass-loader": "^7.0.1",
     "@chiaweilee/vue-markdown-loader": "^2.4.1",
     "vue-template-compiler": "^2.5.17"

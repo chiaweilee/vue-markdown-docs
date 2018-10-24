@@ -31,7 +31,7 @@ const routesBuilder = function (routes, root = true) {
         meta: {
           title: routes[route].title
         },
-        component: () => import(/* webpackChunkName: "${route}" */ `${route}`)
+        component: () => import(/* webpackChunkName: "md" */ `${route}`)
       })
     } else {
       // parent route
