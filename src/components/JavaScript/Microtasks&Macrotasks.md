@@ -17,9 +17,12 @@ console.log(4)
 ```
 
 ```console
-2 4 3 1
+// result: 2 4 3 1
 ```
 
-### Single-Thread
+### Macrotask
 
-`JavaScript` is a `single threaded` language.
+`setTimeout`, `setInterval`, `process.nextTick`
+
+### Microtask
+`process.nextTick`, `Promise`

@@ -9,7 +9,17 @@ export default {
     },
     'JavaScript/Promise.md': {
       title: 'Promise'
+    },
+    'JavaScript/Deep&ShallowCopy.md': {
+      title: 'Deep & Shallow Copy'
+    },
+    'JavaScript/Enumerate-an-object.md': {
+      title: 'Enumerate an object'
     }
   },
-  'Vue.js': {}
+  'Vue.js': {
+    'Vuejs/nextTick.md': {
+      title: 'nextTick'
+    }
+  }
 }
