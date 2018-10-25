@@ -3,7 +3,7 @@
 
 ### Demo and Docs
 
-see `https://chiaweilee.github.io/vue-markdown-docs/`
+see https://chiaweilee.github.io/vue-markdown-docs/
 
 ### Install
 
