@@ -15,6 +15,12 @@ export default {
     },
     'JavaScript/Enumerate-an-object.md': {
       title: 'Enumerate an object'
+    },
+    'JavaScript/XSS.md': {
+      title: 'Cross site scripting'
+    },
+    'JavaScript/Set.md': {
+      title: 'Set'
     }
   },
   'Vue.js': {
