@@ -26,6 +26,9 @@ export default {
   'Vue.js': {
     'Vuejs/nextTick.md': {
       title: 'nextTick'
+    },
+    'Vuejs/v-if&v-for.md': {
+      title: 'v-if with v-for'
     }
   }
 }
