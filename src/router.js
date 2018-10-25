@@ -5,7 +5,7 @@ import routerView from './views/routerView'
 
 Vue.use(Router)
 
-const isComponentLike = path => /\/([^/]+)\.[^/]+$/i.exec(path)
+const isComponentLike = path => /([^/]+)\.md$/i.exec(path)
 
 const index = []
 
@@ -31,7 +31,7 @@ const routesBuilder = function (routes, root = true) {
         meta: {
           title: routes[route].title
         },
-        component: () => import(/* webpackChunkName: "md" */ `${route}`)
+        component: () => import(/* webpackChunkName: "md" */ `./components/${route}`)
       })
     } else {
       // parent route
