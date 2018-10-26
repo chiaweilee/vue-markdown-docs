@@ -16,7 +16,7 @@ Build your docs website with Markdown file (*.md) quickly.
 
 #### What's the difference between MarkDown and MarkDown-Docs?
 
-*MarkDown-Docs used [Vue MarkDown loader](https://github.com/QingWei-Li/vue-markdown-loader), every **.md** file will transform into Vue Component Template.That's why we support use HTML and Vue Template language tag in **.md** file.*
+*MarkDown-Docs used [Vue MarkDown loader](https://github.com/chiaweilee/vue-markdown-docs), every **.md** file will transform into Vue Component Template.That's why we support use HTML and Vue Template language tag in **.md** file.*
 
 ### Anchor
 
