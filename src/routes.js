@@ -4,6 +4,9 @@ export default {
     default: true
   },
   JavaScript: {
+    'JavaScript/AMD-UMD-CommonJS.md': {
+      title: 'AMD UMD CommonJS'
+    },
     'JavaScript/Microtasks&Macrotasks.md': {
       title: 'Microtasks & Macrotasks'
     },
