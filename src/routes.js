@@ -4,6 +4,9 @@ export default {
     default: true
   },
   JavaScript: {
+    'JavaScript/Closure.md': {
+      title: "Closure"
+    },
     'JavaScript/AMD-UMD-CommonJS.md': {
       title: 'AMD UMD CommonJS'
     },
