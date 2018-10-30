@@ -3,9 +3,20 @@ export default {
     title: 'Introduction',
     default: true
   },
+  CSS: {
+    'CSS/BFC.md': {
+      title: 'BFC'
+    },
+    'CSS/Box-model.md': {
+      title: 'Box model'
+    }
+  },
   JavaScript: {
+    'JavaScript/Event.md': {
+      title: 'Event'
+    },
     'JavaScript/Closure.md': {
-      title: "Closure"
+      title: 'Closure'
     },
     'JavaScript/AMD-UMD-CommonJS.md': {
       title: 'AMD UMD CommonJS'
