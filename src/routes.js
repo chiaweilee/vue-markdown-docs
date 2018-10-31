@@ -4,6 +4,9 @@ export default {
     default: true
   },
   JavaScript: {
+    'JavaScript/Array.md': {
+      title: "Array"
+    },
     'JavaScript/Closure.md': {
       title: "Closure"
     },
