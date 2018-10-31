@@ -4,6 +4,9 @@ export default {
     default: true
   },
   CSS: {
+    'CSS/Horizontal-and-Vertical-Center.md': {
+      title: 'Horizontal Vertical Center'
+    },
     'CSS/BFC.md': {
       title: 'BFC'
     },
@@ -12,6 +15,9 @@ export default {
     }
   },
   JavaScript: {
+    'JavaScript/requestAnimationFrame.md': {
+      title: "requestAnimationFrame"
+    },
     'JavaScript/Array.md': {
       title: "Array"
     },
