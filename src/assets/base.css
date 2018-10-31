@@ -1536,3 +1536,7 @@ td, th {
 .sidebar-group-h3 {
   padding-left: 2rem;
 }
+
+.sidebar.active {
+  transform: translateX(0%)!important;
+}

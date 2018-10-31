@@ -1,6 +1,6 @@
 <template>
   <header class="navbar">
-    <div class="sidebar-button">
+    <div class="sidebar-button" @touchend="showSidebar">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 448 512"
@@ -39,6 +39,19 @@ export default {
     return {
       name: name,
       version: version
+    }
+  },
+  methods: {
+    showSidebar () {
+      const el = document.getElementsByClassName('sidebar')[0]
+      const cls = el.className.split(' ')
+      const has = cls.indexOf('active')
+      if (has > -1) {
+        delete cls[has]
+      } else {
+        cls.push('active')
+      }
+      el.className = cls.join(' ').trim()
     }
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar">
+  <div class="sidebar" ref="sidebar" @click="onClick">
     <route-map :routes="routes"/>
     <links :markdown="markdown"/>
   </div>
@@ -29,6 +29,18 @@ export default {
         }
       })
       return routes
+    }
+  },
+  methods: {
+    onClick ({ target }) {
+      if (target.tagName === 'A') {
+        const cls = this.$refs.sidebar.className.split(' ')
+        const has = cls.indexOf('active')
+        if (has > -1) {
+          delete cls[has]
+          this.$refs.sidebar.className = cls.join(' ').trim()
+        }
+      }
     }
   }
 }
