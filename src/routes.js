@@ -3,6 +3,11 @@ export default {
     title: 'Introduction',
     default: true
   },
+  HTTP: {
+    'HTTP/Headers-and-Caching.md': {
+      title: 'Headers and Caching'
+    }
+  },
   CSS: {
     'CSS/Horizontal-and-Vertical-Center.md': {
       title: 'Horizontal Vertical Center'
@@ -15,6 +20,9 @@ export default {
     }
   },
   JavaScript: {
+    'JavaScript/null.md': {
+      title: "null"
+    },
     'JavaScript/requestAnimationFrame.md': {
       title: "requestAnimationFrame"
     },

@@ -19,3 +19,8 @@ element.addEventListener(type, listener[ , useCapture])
 addEventListener support both `capturing` and `budding`
 
 `options`, `Boolean`, default `false`
+
+#### event.target & event.currentTarget
+
+`currentTarget`: element which event handler attached
+`target`: the element which event handler fired
