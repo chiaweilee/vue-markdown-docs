@@ -20,6 +20,9 @@ export default {
     }
   },
   JavaScript: {
+    'JavaScript/String.md': {
+      title: "String"
+    },
     'JavaScript/null.md': {
       title: "null"
     },
