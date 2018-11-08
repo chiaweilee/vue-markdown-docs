@@ -11,6 +11,8 @@
 
 see https://chiaweilee.github.io/vue-markdown-docs/
 
+*`DO NOT REFRESH/RELOAD` on this demo*
+
 ### How to use?
 
 `fork`, `clone`, `download`..
