@@ -1,7 +1,7 @@
 <template>
   <div class="sidebar" ref="sidebar" @click="onClick">
-    <route-map :routes="routes"/>
     <links :markdown="markdown"/>
+    <route-map :routes="routes"/>
   </div>
 </template>
 

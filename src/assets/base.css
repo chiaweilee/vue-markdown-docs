@@ -696,6 +696,7 @@ a.sidebar-link.active {
 }
 
 .sidebar .sidebar-links {
+  background-color: #eee;
   padding: 1.5rem 0
 }
 

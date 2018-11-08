@@ -13,6 +13,9 @@ Build your docs website with Markdown file (*.md) quickly.
 - Build with *.md file
 - HTML support
 - Vue Template support
+- I18n support
+
+⚠️Warning: DO NOT REFRESH THIS PAGE (Rewrite required, but Github not support)
 
 #### What's the difference between MarkDown and MarkDown-Docs?
 
