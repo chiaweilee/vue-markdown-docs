@@ -33,6 +33,7 @@
 
 <script>
 import { name, version } from '../../package'
+
 export default {
   name: 'NavBar',
   data () {

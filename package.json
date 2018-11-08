@@ -20,11 +20,14 @@
   "license": "MIT",
   "dependencies": {
     "vue": "^2.5.17",
+    "vue-i18n": "^8.3.0",
+    "vue-i18n-filter": "^0.1.4",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@chiaweilee/vue-markdown-loader": "^2.4.1-highlight",
+    "@chiaweilee/vue-markdown-loader": "^2.4.1-I18n",
+    "@kazupon/vue-i18n-loader": "^0.3.0",
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-plugin-eslint": "^3.0.5",
     "@vue/cli-service": "^3.0.5",

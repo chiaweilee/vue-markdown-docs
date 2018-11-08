@@ -420,7 +420,8 @@
   line-height: 2rem
 }
 
-.nav-links .nav-item {
+.nav-links .nav-item:first-child,
+.nav-links dd.nav-item {
   margin-left: 0
 }
 

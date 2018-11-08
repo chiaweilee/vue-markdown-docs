@@ -47,3 +47,60 @@ To support `h4` and `h5`, you can open `src/core/utils.js`, modify `['h1', 'h2',
     ##### {{ word }}
 </div>
 ```
+
+### I18n
+
+*support `vue-i18n`, `vue-i18n-loader` and `vue-i18n-filter`*
+
+```
+{{ $t('hello') }}
+```
+
+{{ $t('hello') }}
+
+#### filter
+
+```
+{{ 'hello' | t }}
+```
+
+{{ 'hello' | t }}
+
+#### i18n tag
+
+```
+<i18n>
+{
+    "zh-cn": {
+      "hello": "您好"
+    },
+    "en": {
+      "hello": "hello"
+    }
+}
+</i18n>
+```
+<i18n>
+{
+    "zh-cn": {
+      "hello": "您好"
+    },
+    "en": {
+      "hello": "hello"
+    }
+}
+</i18n>
+
+#### i18n locale
+
+```vue.js
+{{ 'hello' | t }}
+<a @click="$i18n.locale = 'en'">en</a> |
+<a @click="$i18n.locale = 'zh-cn'">zh-cn</a>
+```
+
+try click below link
+
+{{ 'hello' | t }}
+<a @click="$i18n.locale = 'en'">en</a> |
+<a @click="$i18n.locale = 'zh-cn'">zh-cn</a>
