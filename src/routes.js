@@ -20,17 +20,20 @@ export default {
     }
   },
   JavaScript: {
+    'JavaScript/memory-leak.md': {
+      title: 'Memory Leak'
+    },
     'JavaScript/String.md': {
-      title: "String"
+      title: 'String'
     },
     'JavaScript/null.md': {
-      title: "null"
+      title: 'null'
     },
     'JavaScript/requestAnimationFrame.md': {
-      title: "requestAnimationFrame"
+      title: 'requestAnimationFrame'
     },
     'JavaScript/Array.md': {
-      title: "Array"
+      title: 'Array'
     },
     'JavaScript/Event.md': {
       title: 'Event'
