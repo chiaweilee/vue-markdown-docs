@@ -66,6 +66,9 @@ export default {
     },
     'Vuejs/v-if&v-for.md': {
       title: 'v-if with v-for'
+    },
+    'Vuejs/data-function.md': {
+      title: 'Data()'
     }
   }
 }
