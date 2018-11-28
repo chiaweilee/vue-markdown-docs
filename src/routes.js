@@ -61,6 +61,9 @@ export default {
     },
     'JavaScript/Set.md': {
       title: 'Set'
+    },
+    'JavaScript/classes.md': {
+      title: 'classes'
     }
   },
   'Vue.js': {
