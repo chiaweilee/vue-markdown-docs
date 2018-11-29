@@ -7,6 +7,8 @@
 - automatic section link bind
 - full i18n support by `vue-i18n`, `vue-i18n-loader` and `vue-i18n-filter`
 
+base on [@chiaweilee/vue-markdown-loader](https://github.com/chiaweilee/vue-markdown-loader)
+
 ### Demo and Docs
 
 see https://chiaweilee.github.io/vue-markdown-docs/
