@@ -1,6 +1,6 @@
 {
   "name": "vue-markdown-docs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "scripts": {
     "dev": "npm run serve",
@@ -26,7 +26,7 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@chiaweilee/vue-markdown-loader": "^2.4.1-I18n",
+    "@chiaweilee/vue-markdown-loader": "^2.5.0-beta",
     "@kazupon/vue-i18n-loader": "^0.3.0",
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-plugin-eslint": "^3.0.5",

@@ -1,5 +1,5 @@
 module.exports = {
-  script: `
+  scriptMixin: `
   import { refactorHn, goHash } from '@/core/utils'
   export default {
     mounted () {
