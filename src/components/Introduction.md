@@ -51,6 +51,8 @@ To support `h4` and `h5`, you can open `src/core/utils.js`, modify `['h1', 'h2',
 </div>
 ```
 
+*notice: Markdown render have priority over Vue template*
+
 ### I18n
 
 *support `vue-i18n`, `vue-i18n-loader` and `vue-i18n-filter`*
