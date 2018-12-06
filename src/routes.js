@@ -76,5 +76,10 @@ export default {
     'Vuejs/data-function.md': {
       title: 'Data()'
     }
+  },
+  'Node.js': {
+    'Nodejs/npm.md': {
+      title: 'npm'
+    }
   }
 }
