@@ -1,5 +1,7 @@
 ## Vue Markdown Docs
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/chiaweilee/vue-markdown-docs.svg)](https://greenkeeper.io/)
+
 ### What it is?
 
 - create your docs website with `Markdown` only
