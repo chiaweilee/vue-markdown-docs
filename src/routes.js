@@ -81,5 +81,10 @@ export default {
     'Nodejs/npm.md': {
       title: 'npm'
     }
+  },
+  'Web App': {
+    'WebAPP/manifest.md': {
+      title: 'Manifest'
+    }
   }
 }
