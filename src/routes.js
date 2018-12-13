@@ -86,5 +86,10 @@ export default {
     'WebAPP/manifest.md': {
       title: 'Manifest'
     }
+  },
+  'Webpack': {
+    'Webpack/Plugins.md': {
+      title: 'Plugins'
+    }
   }
 }
