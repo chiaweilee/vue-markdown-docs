@@ -80,6 +80,9 @@ export default {
   'Node.js': {
     'Nodejs/npm.md': {
       title: 'npm'
+    },
+    'Nodejs/stdout.md': {
+      title: 'stdout'
     }
   },
   'Web App': {
